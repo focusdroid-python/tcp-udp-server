@@ -1,6 +1,9 @@
 import socket
 import re
-import threading
+import gevent
+from gevent import monkey
+
+monkey.patch_all()
 
 def service_client(new_socket):
     request = new_socket.recv(1024).decode("utf-8")
@@ -40,10 +43,7 @@ def main():
 
     while True:
         new_socket, client_addr = tcp_server_socket.accept()
-        p = threading.Thread(target=service_client, args=(new_socket, )) 
-        p.start()
-        # new_socket.close()   duojincheng
-        # service_client(new_socket)
+        gevent.spawn(service_client,  new_socket) 
 
     tcp_server_socket.close()
 
