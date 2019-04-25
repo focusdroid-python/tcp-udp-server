@@ -5,7 +5,7 @@ def main():
     tcp_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # 绑定端口
-    tcp_server.bind(('', 8080))
+    tcp_server.bind(('', 8081))
 
     # 监听端口
     tcp_server.listen(128)
@@ -17,6 +17,7 @@ def main():
 
         # 一些链接信息
         print(new_client_socket)
+        print('一个客户端连接成功')
         # 客户端的信息（ip, 端口）
         print(client_addr)
 
@@ -25,15 +26,15 @@ def main():
             # 接收客户端发送过来的请求
             recv_data = new_client_socket.recv(1024)
 
-            print(recv_data.decode('gbk'))
+            print('客户端发送的内容：%s'% recv_data.decode('gbk'))
             # 只要
-            if recv_data.decode('gbk'):
+            if recv_data:
                 new_client_socket.send('hahhahah'.encode('gbk'))
             else:
                 new_client_socket.close()
                 break
-
-    new_client_socket.close()
+        print('一个客户端关闭了')
+        new_client_socket.close()
     tcp_server.close()
 
 

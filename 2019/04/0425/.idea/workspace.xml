@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69355cd3-6a22-4105-8d10-9cacd320b9aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../0421/00-socket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0421/01scoket通信.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0421/02-socket循环发数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0421/03-socket接发数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0421/06-socket解析数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0421/07-socket解决乱码.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0421/08-socket循环发数据绑定本地端口.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0422/01-tcp-客户端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0423/01-tcp-client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0423/02-ycp-server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-tcp-client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-tcp-client循环使用服务器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-rtcp-client循环多次为客户端服务.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-rtcp-client循环多次为客户端服务.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-rtcp-client循环多次为客户端服务.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-rtcp-client循环多次为客户端服务.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="352">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -83,6 +71,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -113,12 +102,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556124511196</updated>
-      <workItem from="1556124512943" duration="1996000" />
+      <workItem from="1556124512943" duration="2278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1996000" />
+    <option name="totallyTimeSpent" value="2278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="800" y="27" width="1204" height="965" extended-state="0" />
@@ -163,8 +152,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03-rtcp-client循环多次为客户端服务.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="352">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
