@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cfae05-1118-4d92-8ad6-e44c984ec87d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-tcp-downloadfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-tcp-server-download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-tcp-封装server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../04/0423/01-udp复习.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04/0423/01-udp复习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../04/0423/02-tcp-client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04/0423/02-tcp-client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../04/0423/03-tcp-server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04/0423/03-tcp-server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/0-socket发送消息.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/01-socket发送消息.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/01-socket循环发送数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/02-socket接受数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/04-socket复习socket.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/05-socket接收消息复习.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/06-socket同时收发消息.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/07-udp聊天.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/08-升级UDP聊天.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../0422/socket.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0426/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0426/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0426/02-tcp-server多个客户端链接.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0426/02-tcp-server多个客户端链接.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../python0402/02python操作sql添加数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../python0405/01pythonsql注入.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python0405/01pythonsql注入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../python0406/Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python0406/Demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../vim/vim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04/0422" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04/0422" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +25,16 @@
         <entry file="file://$PROJECT_DIR$/[新]2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/[新]1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -55,7 +42,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-tcp-封装server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="596">
               <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
             </state>
           </provider>
@@ -63,7 +50,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -84,6 +75,9 @@
         <option value="$PROJECT_DIR$/02-tcp-server-download.py" />
         <option value="$PROJECT_DIR$/01-tcp-downloadfile.py" />
         <option value="$PROJECT_DIR$/03-tcp-封装server.py" />
+        <option value="$PROJECT_DIR$/11.py" />
+        <option value="$PROJECT_DIR$/[新]2.py" />
+        <option value="$PROJECT_DIR$/[新]1.py" />
       </list>
     </option>
   </component>
@@ -123,6 +117,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -153,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556337279893</updated>
-      <workItem from="1556337281041" duration="4055000" />
+      <workItem from="1556337281041" duration="4729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4055000" />
+    <option name="totallyTimeSpent" value="4729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="743" y="0" width="1400" height="1078" extended-state="0" />
@@ -191,22 +186,12 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/[新]2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02-tcp-server-download.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/01-tcp-downloadfile.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -215,9 +200,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/[新]2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/[新]1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03-tcp-封装server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="596">
           <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
         </state>
       </provider>
