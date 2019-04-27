@@ -21,7 +21,7 @@ def main():
 
         print(new_client_socket)
         print(client_addr)
-        
+
         while True:
             # 客户端发送过来的请求
             recv_data = new_client_socket.recv(1024)
