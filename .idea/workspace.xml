@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e0aa7683-6c26-4a9d-b311-3c50a87c3a60" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/python0401/02python操作sql添加数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python0405/01pythonsql注入.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python0406/Demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,15 +16,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python0401/02python操作sql添加数据.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <entry file="file://$PROJECT_DIR$/vim/vim.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="301">
+                <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_info_by_name</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,14 +51,20 @@
         <option value="$PROJECT_DIR$/python0330/test2.py" />
         <option value="$PROJECT_DIR$/python0330/02python操作sql添加数据.py" />
         <option value="$PROJECT_DIR$/python0401/02python操作sql添加数据.py" />
+        <option value="$PROJECT_DIR$/python0402/02python操作sql添加数据.py" />
+        <option value="$PROJECT_DIR$/python0405/01pythonsql注入.py" />
+        <option value="$PROJECT_DIR$/python0405/02防止sql注入.py" />
+        <option value="$PROJECT_DIR$/python0406/Demo.py" />
+        <option value="$PROJECT_DIR$/vim/vim.py" />
+        <option value="$PROJECT_DIR$/vim/vim.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="604" />
-    <option name="y" value="27" />
-    <option name="width" value="1307" />
-    <option name="height" value="1050" />
+    <option name="x" value="866" />
+    <option name="y" value="75" />
+    <option name="width" value="952" />
+    <option name="height" value="1078" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -58,12 +81,7 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="python0330" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="python0401" type="462c0819:PsiDirectoryNode" />
+              <item name="vim" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -75,7 +93,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/0422" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -103,18 +124,23 @@
       <workItem from="1553959476353" duration="40000" />
       <workItem from="1554014159875" duration="5587000" />
       <workItem from="1554098946798" duration="1242000" />
-      <workItem from="1554184415886" duration="399000" />
+      <workItem from="1554184415886" duration="1724000" />
+      <workItem from="1554280000995" duration="613000" />
+      <workItem from="1554288077892" duration="430000" />
+      <workItem from="1554445872776" duration="4924000" />
+      <workItem from="1554561541995" duration="237000" />
+      <workItem from="1554643243998" duration="4949000" />
+      <workItem from="1555897083990" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7268000" />
+    <option name="totallyTimeSpent" value="19798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="604" y="27" width="1307" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="866" y="75" width="952" height="1078" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.023904383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.033333335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -156,7 +182,47 @@
     <entry file="file://$PROJECT_DIR$/python0401/02python操作sql添加数据.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python0402/02python操作sql添加数据.py" />
+    <entry file="file://$PROJECT_DIR$/python0402/02名字查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" lean-forward="true" selection-end-line="80" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python0405/01pythonsql注入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python0405/02防止sql注入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python0406/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vim/vim.py" />
+    <entry file="file://$PROJECT_DIR$/vim/vim.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="301">
+            <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

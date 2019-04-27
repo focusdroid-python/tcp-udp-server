@@ -33,9 +33,19 @@ class JD(object):
         self.conn.commit()
 
     def get_info_by_name(self):
+        # 防止sql注入
         find_name = input('请输入商品name')
-        sql = """select * from  goods where cate_id=%s"""% find_name
-        self.search(sql)
+        sql = "select  * from goods where name=%s"
+        self.cursor.execute(sql, find_name)
+        print(self.cursor.fetchall())
+
+
+        # ' or 1=1 or '1   sql注入
+        # 一些代码有sql注入风险
+        # find_name = input('请输入商品name')
+        # sql = """select * from  goods where name='%s'"""% find_name
+        # print("--------------------->%s<----------------"% sql)
+        # self.search(sql)
 
     @staticmethod
     def print_muem():
